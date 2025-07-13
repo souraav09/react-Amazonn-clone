@@ -1,0 +1,37 @@
+.categoryBar {
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;       
+  overflow-x: auto;         
+  padding: 10px 10px;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+.categoryBar::-webkit-scrollbar {
+  display: none;
+}
+
+.categoryItem {
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  flex-shrink: 0;
+}
+
+.categoryItem:hover {
+  background-color: #37475a;
+  border: 1px solid white;
+}
+@media screen and (max-width: 768px) {
+  .categoryItem {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+}
