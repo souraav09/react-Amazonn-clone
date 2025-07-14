@@ -23,6 +23,8 @@ function Product({ id, title, price, image, rating }) {
             <span key={i}>⭐</span>
           ))}
         </div>
+
+        
       </div>
       <button onClick={addToBasketHandler}>Add to Basket</button>
     </div>

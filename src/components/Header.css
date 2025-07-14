@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   background-color: #131921;
-  padding: 0 15px;
+  padding: 0 20px;
   height: 60px;
   position: sticky;
   top: 0;
@@ -20,16 +20,16 @@
 .header__logo {
   width: 100px;
   object-fit: contain;
-  margin-top: 10px;
+  margin-top: 5px;
   cursor: pointer;
 }
 
 .header__location {
   display: flex;
   flex-direction: column;
-  padding: 5px 8px;
-  transition: 0.3s;
+  padding: 3px 6px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .header__location:hover {
@@ -45,6 +45,7 @@
   font-size: 14px;
   font-weight: 600;
 }
+
 .header__search {
   flex: 1;
   display: flex;
@@ -53,6 +54,7 @@
   overflow: hidden;
   background-color: white;
   height: 35px;
+  margin: 0 10px;
 }
 
 .header__searchInput {
@@ -71,7 +73,6 @@
   color: black;
 }
 
-
 .header__nav {
   display: flex;
   align-items: center;
@@ -82,7 +83,7 @@
 .header__optionBasket {
   display: flex;
   flex-direction: column;
-  padding: 5px 8px;
+  padding: 3px 6px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -114,6 +115,7 @@
 
   .header__search {
     width: 100%;
+    margin: 10px 0;
   }
 
   .header__nav {

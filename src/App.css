@@ -1,0 +1,51 @@
+/* Reset layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #EAEDED;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Avoid scroll issues from images or flex */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Fix scrollbar pushing layout */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+}
+
+/* For all containers */
+.container, .header, .home, .checkout, .footer {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Remove accidental padding/margin that might push content */
+.header, .footer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

@@ -1,9 +1,5 @@
-// src/components/Home.jsx
-import React from "react";
 import "./Home.css";
 import Product from "./Product";
-
-// ✅ Images
 import redmi from "../assets/xiaomi-redmi-13-5g-0.jpg";
 import sony1 from "../assets/81rqOytr3JL (1).jpg";
 import sony2 from "../assets/119943_original_local_1200x1050_v3_converted.webp";
