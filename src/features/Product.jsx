@@ -1,5 +1,5 @@
 
-import './Product.css';
+import '../styles/Product.css';
 import { useDispatch } from 'react-redux';
 import { addToBasket } from '../store/basketSlice';
 

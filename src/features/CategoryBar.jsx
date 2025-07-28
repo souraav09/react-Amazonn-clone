@@ -1,5 +1,5 @@
 
-import './CategoryBar.css';
+import '../styles/CategoryBar.css';
 
 function CategoryBar() {
   const categories = [

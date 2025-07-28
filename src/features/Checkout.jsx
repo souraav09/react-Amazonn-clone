@@ -1,5 +1,5 @@
 
-import './Checkout.css';
+import '../styles/Checkout.css';
 import { useSelector } from 'react-redux';
 import { selectBasketItems } from '../store/basketSlice';
 import CheckoutProduct from './CheckoutProduct';

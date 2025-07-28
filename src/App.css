@@ -1,4 +1,4 @@
-/* Reset layout */
+
 * {
   margin: 0;
   padding: 0;
@@ -18,13 +18,12 @@ html, body {
   overflow-x: hidden;
 }
 
-/* Avoid scroll issues from images or flex */
+
 img {
   max-width: 100%;
   display: block;
 }
 
-/* Fix scrollbar pushing layout */
 body::-webkit-scrollbar {
   width: 8px;
 }
@@ -35,14 +34,12 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
   background-color: #666;
 }
-
-/* For all containers */
 .container, .header, .home, .checkout, .footer {
   max-width: 100%;
   overflow-x: hidden;
 }
 
-/* Remove accidental padding/margin that might push content */
+
 .header, .footer {
   padding-left: 0 !important;
   padding-right: 0 !important;

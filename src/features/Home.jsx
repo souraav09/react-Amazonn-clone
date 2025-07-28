@@ -1,4 +1,4 @@
-import "./Home.css";
+import "../styles/Home.css";
 import Product from "./Product";
 import redmi from "../assets/xiaomi-redmi-13-5g-0.jpg";
 import sony1 from "../assets/81rqOytr3JL (1).jpg";
